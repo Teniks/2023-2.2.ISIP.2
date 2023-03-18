@@ -1,0 +1,17 @@
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.exe.config
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.exe
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\bin\Debug\EducationalPractice.pdb
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csprojAssemblyReference.cache
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form1.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Properties.Resources.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.GenerateResource.cache
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.CoreCompileInputs.cache
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.exe
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.pdb
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form2.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form3.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form4.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form5.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form6.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form7.resources
+C:\Pirogov-Kopeikina\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form8.resources
