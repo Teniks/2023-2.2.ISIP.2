@@ -70,5 +70,10 @@ namespace EducationalPractice
             Program.Sets.Show();
             Program.Sets1.Hide();
         }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

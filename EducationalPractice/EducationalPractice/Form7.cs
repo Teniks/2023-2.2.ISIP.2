@@ -28,5 +28,17 @@ namespace EducationalPractice
             Program.Sets1.Show();
             Program.Sets.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.While.Show();
+            Program.Sets.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Program.For.Show();
+            Program.Sets.Hide();
+        }
     }
 }

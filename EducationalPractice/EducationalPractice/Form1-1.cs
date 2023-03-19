@@ -10,23 +10,24 @@ using System.Windows.Forms;
 
 namespace EducationalPractice
 {
-    public partial class Form1 : Form
+    public partial class Form1_1 : Form
     {
-        public Form1()
+        public Form1_1()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Program.Bridge.Show();
-            Program.Center.Hide();
+            //Математические и физические задачи
+            Program.MathAndPHysicalTascks.Show();
+            Program.Bridge.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Program.Sets.Show();
-            Program.Center.Hide();
+            Program.BranchingChoice.Show();
+            Program.Bridge.Hide();
         }
     }
 }
