@@ -49,7 +49,7 @@ namespace EducationalPractice
                 int m2 = Convert.ToInt32(Program.DoubleFromText(textBox3.Text));
                 int n2 = Convert.ToInt32(Program.DoubleFromText(textBox4.Text));
 
-                label1.Text = Convert.ToString(Program.C(m1, n1) + Program.C(m1, n1));
+                label1.Text = Convert.ToString(Program.C(m1, n1) + Program.C(m2, n2));
             }
             catch
             {
@@ -60,7 +60,9 @@ namespace EducationalPractice
 
         }
 
-        
+        private void Form11_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

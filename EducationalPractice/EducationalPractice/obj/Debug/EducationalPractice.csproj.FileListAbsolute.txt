@@ -78,3 +78,4 @@ C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\Educational
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.exe
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.pdb
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form11.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form11.resources

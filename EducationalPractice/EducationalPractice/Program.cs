@@ -21,6 +21,7 @@ namespace EducationalPractice
         public static Form9 While = new Form9();
         public static Form10 For = new Form10();
         public static Form11 Recursion = new Form11();
+        public static Form12 WorkingWithLists = new Form12();
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -49,14 +50,14 @@ namespace EducationalPractice
 
         public static int C(int m, int n)
         {
-            int res = -1;
+            int res = m+n;
             if (n == 0)
             {
                 return 1;
             }
             if (0 < m && m < n)
             {
-                return (factorial(m)) / (factorial(n) * (factorial(m - n)));
+                return (factorial(n)) / (factorial(m) * (factorial(n - m)));
             }
 
             MessageBox.Show("Возникло исключение в условии", "Проблема");
