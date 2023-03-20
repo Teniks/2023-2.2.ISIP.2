@@ -20,6 +20,7 @@ namespace EducationalPractice
         public static Form8 Sets1 = new Form8();
         public static Form9 While = new Form9();
         public static Form10 For = new Form10();
+        public static Form11 Recursion = new Form11();
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -44,6 +45,33 @@ namespace EducationalPractice
                 return 0.0;
             }
             
+        }
+
+        public static int C(int m, int n)
+        {
+            int res = -1;
+            if (n == 0)
+            {
+                return 1;
+            }
+            if (0 < m && m < n)
+            {
+                return (factorial(m)) / (factorial(n) * (factorial(m - n)));
+            }
+
+            MessageBox.Show("Возникло исключение в условии", "Проблема");
+            return res;
+
+        }
+        public static int factorial(int num)
+        {
+            int result = 1;
+            for (int i = 1; i <= num; i++)
+            {
+                result *= i;
+            }
+
+            return result;
         }
     }
 } 

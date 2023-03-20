@@ -40,5 +40,11 @@ namespace EducationalPractice
             Program.For.Show();
             Program.Sets.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Program.Recursion.Show();
+            Program.Sets.Hide();
+        }
     }
 }
