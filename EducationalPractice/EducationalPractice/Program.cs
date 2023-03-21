@@ -22,6 +22,8 @@ namespace EducationalPractice
         public static Form10 For = new Form10();
         public static Form11 Recursion = new Form11();
         public static Form12 WorkingWithLists = new Form12();
+        public static Form13 FruitTree = new Form13();
+        public static Form16 LinkedLists = new Form16();
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -74,5 +76,11 @@ namespace EducationalPractice
 
             return result;
         }
+    }
+
+    static class Data
+    {
+        public static List<object> Boofer = new List<object>();
+        public static List<object> Boofer1 = new List<object>();
     }
 } 

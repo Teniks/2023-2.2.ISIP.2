@@ -10,29 +10,26 @@ using System.Windows.Forms;
 
 namespace EducationalPractice
 {
-    public partial class Form1 : Form
+    public partial class Form16 : Form
     {
-        public Form1()
+        public Form16()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Form16_Load(object sender, EventArgs e)
         {
-            Program.Bridge.Show();
-            Program.Center.Hide();
+
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Program.Sets.Show();
-            Program.Center.Hide();
+            textBox2.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Program.WorkingWithLists.Show();
-            Program.Center.Hide();
+
         }
     }
 }

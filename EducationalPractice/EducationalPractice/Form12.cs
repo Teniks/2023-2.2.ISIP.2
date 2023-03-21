@@ -20,7 +20,32 @@ namespace EducationalPractice
         private void button5_Click(object sender, EventArgs e)
         {
             Program.WorkingWithLists.Hide();
-            Program.
+            Program.Sets.Show();
+        }
+
+        private void Form12_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Program.WorkingWithLists.Hide();
+            Program.FruitTree.Show();
+        }
+
+        public void button2_Click(object sender, EventArgs e)
+        {
+            Form15 Tables = new Form15();
+            Program.WorkingWithLists.Hide();
+            Tables.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Program.WorkingWithLists.Hide();
+            Program.LinkedLists.Show();
+
         }
     }
 }
