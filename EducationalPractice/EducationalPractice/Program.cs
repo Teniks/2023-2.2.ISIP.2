@@ -24,6 +24,8 @@ namespace EducationalPractice
         public static Form12 WorkingWithLists = new Form12();
         public static Form13 FruitTree = new Form13();
         public static Form16 LinkedLists = new Form16();
+        public static Form18 WorkingWithMass = new Form18();
+        public static Form19 Rows = new Form19();
 
         /// <summary>
         /// Главная точка входа для приложения.
