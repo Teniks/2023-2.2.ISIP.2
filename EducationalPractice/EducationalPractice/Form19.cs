@@ -45,10 +45,9 @@ namespace EducationalPractice
             
             string word = textBox1.Text;
             string boofer = "";
-            label3.Text = word;
             List<string> words = new List<string>();
 
-            word = Regex.Replace(word, @"[\n]", "");
+            word = Regex.Replace(word, @"[ \n]", "");
 
 
             for (int i = 0; i < word.Length; i++)
@@ -66,24 +65,15 @@ namespace EducationalPractice
             }
             words.Add(boofer);
 
-            label2.Text = Convert.ToString(words.Count);
+            List<string> processedWords = words.FindAll(p => p.Length > 0);
 
-            label3.Text = "";
-            foreach (var n in word)
-            {
-                MessageBox.Show(Convert.ToString(Char.GetUnicodeCategory(n)), "Проблема");
-                label3.Text += n + "|";
-            }
-            
+            label2.Text = Convert.ToString(processedWords.Count);
 
-            int count = words.Count;
-            
+        }
 
-            label1.Text = "";
-            foreach(string n in words)
-            {
-                label1.Text += n + "|";
-            }
+        private void Form19_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

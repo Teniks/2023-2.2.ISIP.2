@@ -87,3 +87,13 @@ C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\Educational
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form17.resources
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form18.resources
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form19.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form12.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form13.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form14.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form15.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form16.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form17.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form18.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form19.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form20.resources
+C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form21.resources

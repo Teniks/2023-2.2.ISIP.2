@@ -22,7 +22,7 @@ namespace EducationalPractice
             //Добавить
             if(listBox1.Items.IndexOf(textBox1.Text) == -1)
             {
-                if(Data.Boofer.IndexOf(textBox1.Text) == -1)
+                if(Data.listBoofer.IndexOf(textBox1.Text) == -1)
                 {
                     listBox1.Items.Add(textBox1.Text);
                 }
@@ -40,10 +40,10 @@ namespace EducationalPractice
             {
                 if (listBox1.Items.IndexOf(textBox1.Text) > 0)
                 {
-                    if (Data.Boofer.IndexOf(textBox1.Text) > 0)
+                    if (Data.listBoofer.IndexOf(textBox1.Text) > 0)
                     {
-                        listBox1.Items.RemoveAt(Data.Boofer.IndexOf(textBox1.Text));
-                        Data.Boofer.RemoveAt(Data.Boofer.IndexOf(textBox1.Text));
+                        listBox1.Items.RemoveAt(Data.listBoofer.IndexOf(textBox1.Text));
+                        Data.listBoofer.RemoveAt(Data.listBoofer.IndexOf(textBox1.Text));
                     }
                 }
                 else
@@ -63,10 +63,10 @@ namespace EducationalPractice
             try
             {
                 listBox1.Items.Clear();
-                for (int i = 0; i < Data.Boofer.Count; i++)
+                for (int i = 0; i < Data.listBoofer.Count; i++)
                 {
                     
-                    listBox1.Items.Add(Data.Boofer[i]);
+                    listBox1.Items.Add(Data.listBoofer[i]);
                 }
             }
             catch
@@ -90,9 +90,9 @@ namespace EducationalPractice
 
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
-                if (Data.Boofer.IndexOf(listBox1.Items[i]) == -1)
+                if (Data.listBoofer.IndexOf(listBox1.Items[i]) == -1)
                 {
-                    Data.Boofer.Add(listBox1.Items[i]);
+                    Data.listBoofer.Add(listBox1.Items[i]);
                 }
             }
         }

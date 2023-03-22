@@ -26,6 +26,8 @@ namespace EducationalPractice
         public static Form16 LinkedLists = new Form16();
         public static Form18 WorkingWithMass = new Form18();
         public static Form19 Rows = new Form19();
+        public static Form20 SortMassive = new Form20();
+        public static Form21 Lines = new Form21();
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -82,7 +84,7 @@ namespace EducationalPractice
 
     static class Data
     {
-        public static List<object> Boofer = new List<object>();
-        public static List<object> Boofer1 = new List<object>();
+        public static List<object> listBoofer = new List<object>();
+        public static int[] massBoofer;
     }
 } 

@@ -37,19 +37,19 @@ namespace EducationalPractice
 
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
-                if (Data.Boofer.IndexOf(listBox1.Items[i]) == -1)
+                if (Data.listBoofer.IndexOf(listBox1.Items[i]) == -1)
                 {
-                    Data.Boofer.Add(listBox1.Items[i]);
+                    Data.listBoofer.Add(listBox1.Items[i]);
                 }
             }
             AddOrDel.ShowDialog();
             try
             {
                 listBox1.Items.Clear();
-                for (int i = 0; i < Data.Boofer.Count; i++)
+                for (int i = 0; i < Data.listBoofer.Count; i++)
                 {
                     
-                    listBox1.Items.Add(Data.Boofer[i]);
+                    listBox1.Items.Add(Data.listBoofer[i]);
                 }
             }
             catch
@@ -71,9 +71,9 @@ namespace EducationalPractice
 
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
-                if (Data.Boofer.IndexOf(listBox1.Items[i]) == -1)
+                if (Data.listBoofer.IndexOf(listBox1.Items[i]) == -1)
                 {
-                    Data.Boofer.Add(listBox1.Items[i]);
+                    Data.listBoofer.Add(listBox1.Items[i]);
                 }
             }
             AddOrDel.ShowDialog();
@@ -81,10 +81,10 @@ namespace EducationalPractice
             try
             {
                 listBox1.Items.Clear();
-                for (int i = 0; i < Data.Boofer.Count; i++)
+                for (int i = 0; i < Data.listBoofer.Count; i++)
                 {
 
-                    listBox1.Items.Add(Data.Boofer[i]);
+                    listBox1.Items.Add(Data.listBoofer[i]);
                 }
             }
             catch

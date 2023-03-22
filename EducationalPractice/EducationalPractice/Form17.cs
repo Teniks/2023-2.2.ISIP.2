@@ -65,7 +65,7 @@ namespace EducationalPractice
             foreach (int g in lineNumber)
             {
                 
-                textBox1.Text += g + 1;
+                textBox1.Text += g + 1 + ",";
             }
 
             dataGridView1.RowCount = n;

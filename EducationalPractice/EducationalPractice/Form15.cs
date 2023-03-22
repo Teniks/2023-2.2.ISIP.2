@@ -45,7 +45,6 @@ namespace EducationalPractice
             dataGridView1.ColumnCount = 4;
             dataGridView1.RowCount = 4;
             int aCount = 0;
-            int n = 3;
             for(int i = 0; i < dataGridView1.RowCount; i++)
             {
                 for (int j = 0; j < dataGridView1.ColumnCount; j ++)
