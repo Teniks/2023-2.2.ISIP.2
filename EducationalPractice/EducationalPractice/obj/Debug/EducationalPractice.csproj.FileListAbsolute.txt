@@ -97,3 +97,9 @@ C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\Educatio
 C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form19.resources
 C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form20.resources
 C:\2023-2.2.ISIP.2(2)\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form21.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form20.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form21.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form22.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form23.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form24.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form25.resources

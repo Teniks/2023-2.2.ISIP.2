@@ -40,5 +40,11 @@ namespace EducationalPractice
             Program.WorkingWithMass.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Program.Lists.Show();
+            Program.Center.Hide();
+        }
     }
 }

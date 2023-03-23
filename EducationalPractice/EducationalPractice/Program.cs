@@ -28,6 +28,10 @@ namespace EducationalPractice
         public static Form19 Rows = new Form19();
         public static Form20 SortMassive = new Form20();
         public static Form21 Lines = new Form21();
+        public static Form22 Lists = new Form22();
+        public static Form23 ListsAndSwitches = new Form23();
+        public static Form24 Subroutines = new Form24();
+        public static Form25 Division = new Form25();
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -49,6 +53,7 @@ namespace EducationalPractice
             }
             catch
             {
+                MessageBox.Show("Введите число","Проблема");
                 return 0.0;
             }
             
