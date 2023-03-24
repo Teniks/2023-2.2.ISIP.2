@@ -32,6 +32,10 @@ namespace EducationalPractice
         public static Form23 ListsAndSwitches = new Form23();
         public static Form24 Subroutines = new Form24();
         public static Form25 Division = new Form25();
+        public static Form26 Charts = new Form26();
+        public static Form27 Animation = new Form27();
+        public static Form28 Stopwatch = new Form28();
+        public static Form29 Animation1 = new Form29();
 
         /// <summary>
         /// Главная точка входа для приложения.

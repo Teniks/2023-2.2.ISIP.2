@@ -46,5 +46,17 @@ namespace EducationalPractice
             Program.Lists.Show();
             Program.Center.Hide();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Program.Charts.Show();
+            Program.Center.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Program.Animation.Show();
+            Program.Center.Hide();
+        }
     }
 }
