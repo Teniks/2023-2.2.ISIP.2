@@ -36,6 +36,9 @@ namespace EducationalPractice
         public static Form27 Animation = new Form27();
         public static Form28 Stopwatch = new Form28();
         public static Form29 Animation1 = new Form29();
+        public static Form31 GraphicsAndMovement = new Form31();
+        public static Form32 Multimedia = new Form32();
+
 
         /// <summary>
         /// Главная точка входа для приложения.

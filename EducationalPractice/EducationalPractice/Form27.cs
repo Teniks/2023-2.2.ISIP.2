@@ -34,5 +34,17 @@ namespace EducationalPractice
             Program.Animation1.Show();
             Program.Animation.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Program.GraphicsAndMovement.Show();
+            Program.Animation.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Program.Multimedia.Show();
+            Program.Animation.Hide();
+        }
     }
 }
