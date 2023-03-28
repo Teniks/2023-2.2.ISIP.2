@@ -20,7 +20,7 @@ namespace EducationalPractice
         private void button5_Click(object sender, EventArgs e)
         {
             Program.WorkingWithLists.Hide();
-            Program.Sets.Show();
+            Program.Center.Show();
         }
 
         private void Form12_Load(object sender, EventArgs e)

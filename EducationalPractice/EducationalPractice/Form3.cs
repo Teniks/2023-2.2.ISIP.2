@@ -19,7 +19,7 @@ namespace EducationalPractice
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"C:\Pirogov-Kopeikina\EducationalPractice\Resource\Screenshot_3.png");
+            pictureBox1.Image = Image.FromFile(@"C:\2023-2.2.ISIP.2\EducationalPractice\Resource\Screenshot_3.png");
         }
         
 
@@ -58,7 +58,7 @@ namespace EducationalPractice
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Program.Center.Show();
+            Program.Bridge.Show();
             Program.Branching.Hide();
         }
         private bool IsNumeric(TextBox textbox)

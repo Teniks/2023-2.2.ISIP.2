@@ -72,5 +72,11 @@ namespace EducationalPractice
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.Sets.Show();
+            Program.While.Hide();
+        }
     }
 }

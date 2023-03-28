@@ -29,5 +29,11 @@ namespace EducationalPractice
             Program.BranchingChoice.Show();
             Program.Bridge.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Program.Center.Show();
+            Program.Bridge.Hide();
+        }
     }
 }

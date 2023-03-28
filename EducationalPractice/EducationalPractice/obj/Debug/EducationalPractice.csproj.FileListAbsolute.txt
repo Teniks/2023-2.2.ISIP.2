@@ -114,3 +114,5 @@ C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\Interop.WMP
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\AxInterop.WMPLib.dll
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.csproj.ResolveComReference.cache
 C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form32.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form33.resources
+C:\2023-2.2.ISIP.2\EducationalPractice\EducationalPractice\obj\Debug\EducationalPractice.Form34.resources

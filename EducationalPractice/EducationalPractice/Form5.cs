@@ -37,7 +37,7 @@ namespace EducationalPractice
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Program.Center.Show();
+            Program.Bridge.Show();
             this.Hide();
 
         }

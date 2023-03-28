@@ -38,6 +38,8 @@ namespace EducationalPractice
         public static Form29 Animation1 = new Form29();
         public static Form31 GraphicsAndMovement = new Form31();
         public static Form32 Multimedia = new Form32();
+        public static Form33 TextFiles = new Form33();
+        public static Form34 Text = new Form34();
 
 
         /// <summary>

@@ -130,7 +130,7 @@ namespace EducationalPractice
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Program.Center.Show();
+            Program.Bridge.Show();
             Program.MathAndPHysicalTascks.Hide();
         }
     }

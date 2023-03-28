@@ -58,5 +58,11 @@ namespace EducationalPractice
             Program.Animation.Show();
             Program.Center.Hide();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Program.TextFiles.Show();
+            Program.Center.Hide();
+        }
     }
 }

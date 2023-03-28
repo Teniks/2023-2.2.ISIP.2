@@ -64,5 +64,11 @@ namespace EducationalPractice
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Program.WorkingWithMass.Show();
+            Program.Lines.Hide();
+        }
     }
 }
