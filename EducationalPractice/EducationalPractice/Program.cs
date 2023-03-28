@@ -100,5 +100,6 @@ namespace EducationalPractice
     {
         public static List<object> listBoofer = new List<object>();
         public static int[] massBoofer;
+        public static List<string> stringListBoofer = new List<string>();
     }
 } 

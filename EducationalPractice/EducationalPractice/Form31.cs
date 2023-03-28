@@ -23,12 +23,6 @@ namespace EducationalPractice
             Drawing = new Drawing(this, 60, 45, 25);
         }
 
-        int i;
-        SolidBrush inside;
-        
-        
-        
-
 
         private void button2_Click(object sender, EventArgs e)
         {

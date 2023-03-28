@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form31));
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button4 = new System.Windows.Forms.Button();
@@ -36,9 +37,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(292, 180);
+            this.button1.Location = new System.Drawing.Point(389, 222);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 31);
+            this.button1.Size = new System.Drawing.Size(188, 38);
             this.button1.TabIndex = 0;
             this.button1.Text = "Начать";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,9 +53,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(292, 217);
+            this.button4.Location = new System.Drawing.Point(389, 267);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(141, 26);
+            this.button4.Size = new System.Drawing.Size(188, 32);
             this.button4.TabIndex = 2;
             this.button4.Text = "Назад";
             this.button4.UseVisualStyleBackColor = true;
@@ -61,11 +64,13 @@
             // 
             // Form31
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 259);
+            this.ClientSize = new System.Drawing.Size(588, 319);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form31";
             this.Text = "Form31";
             this.ResumeLayout(false);
