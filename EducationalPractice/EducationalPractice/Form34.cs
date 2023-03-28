@@ -30,7 +30,10 @@ namespace EducationalPractice
 
             try
             {
-                if (openFileDialog1.ShowDialog() != DialogResult.Cancel)
+                if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                {
+                    return;
+                }else
                 {
                     StreamReader stream = new StreamReader(openFileDialog1.FileName);
                     textBox1.Clear();
@@ -56,7 +59,10 @@ namespace EducationalPractice
         {
             try
             {
-                if (saveFileDialog1.ShowDialog() != DialogResult.Cancel)
+                if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+                {
+                    return;
+                }else
                 {
                     StreamWriter str = new StreamWriter(saveFileDialog1.FileName, false);
 
@@ -81,6 +87,37 @@ namespace EducationalPractice
         {
             toolStripStatusLabel1.Text = DateTime.Now.Date.ToString().Split(' ')[0];
             toolStripStatusLabel2.Text = DateTime.Now.TimeOfDay.ToString().Split('.')[0];
+
+            if (checkBox1.Checked)
+            {
+                try
+                {
+                    button2.Enabled = true;
+                    button3.Enabled = true;
+                    button6.Show();
+
+                    button5.Hide();
+                    comboBox1.Hide();
+                }
+                catch (Exception Exception)
+                {
+
+                    MessageBox.Show(Exception.Message,"Проблема");
+                }
+            }
+            else
+            {
+                try
+                {
+                    button5.Show();
+                    button6.Hide();
+                    comboBox1.Show();
+                }
+                catch (Exception Exception)
+                {
+                    MessageBox.Show(Exception.Message,"Проблема");
+                }
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -96,11 +133,12 @@ namespace EducationalPractice
 
         private void Form34_Load(object sender, EventArgs e)
         {
-            timer1.Interval = 1000;
+            timer1.Interval = 500;
             timer1.Enabled = true;
 
             button5.Enabled = false;
             button3.Enabled = false;
+            button6.Hide();
 
             openFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
             saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
@@ -209,6 +247,22 @@ namespace EducationalPractice
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "CounterWords");
+            }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string[] text = textBox1.Text.Split(new char[] { ' ','\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+            textBox1.Text = "";
+            for (int i = 0; i < text.Length; i++)
+            {
+                textBox1.Text += text[i].Trim();
             }
         }
     }
