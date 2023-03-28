@@ -40,7 +40,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(289, 385);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(225, 28);
             this.button1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(29, 23);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(485, 350);
             this.pictureBox1.TabIndex = 1;
@@ -64,7 +64,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(29, 385);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(252, 28);
             this.button2.TabIndex = 2;
@@ -81,9 +81,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form29";
-            this.Text = "Form29";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

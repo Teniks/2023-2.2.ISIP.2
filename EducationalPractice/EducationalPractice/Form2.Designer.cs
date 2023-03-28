@@ -39,17 +39,20 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(60, 45);
+            this.dataGridView1.Location = new System.Drawing.Point(80, 55);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(423, 344);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(564, 423);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(489, 366);
+            this.button1.Location = new System.Drawing.Point(652, 450);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 23);
+            this.button1.Size = new System.Drawing.Size(177, 28);
             this.button1.TabIndex = 1;
             this.button1.Text = "ВЫПОЛНИТЬ";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,17 +61,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(486, 57);
+            this.label1.Location = new System.Drawing.Point(648, 70);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "<- - x and y";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(629, 365);
+            this.button2.Location = new System.Drawing.Point(839, 449);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 23);
+            this.button2.Size = new System.Drawing.Size(139, 28);
             this.button2.TabIndex = 3;
             this.button2.Text = "Вернуться";
             this.button2.UseVisualStyleBackColor = true;
@@ -76,16 +81,17 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 450);
+            this.ClientSize = new System.Drawing.Size(993, 554);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Математические и физические задачи";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

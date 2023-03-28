@@ -41,7 +41,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(57, 74);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(224, 22);
             this.textBox1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(57, 137);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(223, 22);
             this.textBox2.TabIndex = 2;
@@ -88,7 +88,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(57, 198);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(215, 57);
             this.button1.TabIndex = 5;
@@ -99,7 +99,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(473, 363);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 38);
             this.button2.TabIndex = 6;
@@ -120,9 +120,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form8";
-            this.Text = "Form8";
             this.Load += new System.EventHandler(this.Form8_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

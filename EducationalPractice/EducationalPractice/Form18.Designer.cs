@@ -130,7 +130,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form18";
-            this.Text = "Form18";
+            this.Text = "Работа с массивами";
             this.Load += new System.EventHandler(this.Form18_Load);
             this.ResumeLayout(false);
 

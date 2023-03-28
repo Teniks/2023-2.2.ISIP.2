@@ -38,10 +38,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(10, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(13, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 66);
+            this.button1.Size = new System.Drawing.Size(259, 81);
             this.button1.TabIndex = 0;
             this.button1.Text = "Задание 1";
             this.button1.UseVisualStyleBackColor = true;
@@ -49,10 +49,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(10, 82);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(13, 101);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 77);
+            this.button2.Size = new System.Drawing.Size(259, 95);
             this.button2.TabIndex = 1;
             this.button2.Text = "Задание 2";
             this.button2.UseVisualStyleBackColor = true;
@@ -60,10 +60,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(10, 165);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(13, 203);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(194, 87);
+            this.button3.Size = new System.Drawing.Size(259, 107);
             this.button3.TabIndex = 2;
             this.button3.Text = "Задание 3";
             this.button3.UseVisualStyleBackColor = true;
@@ -71,20 +71,20 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(10, 258);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(13, 318);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(194, 99);
+            this.button4.Size = new System.Drawing.Size(259, 122);
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(9, 362);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(12, 446);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(194, 19);
+            this.button5.Size = new System.Drawing.Size(259, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "Назад";
             this.button5.UseVisualStyleBackColor = true;
@@ -92,18 +92,18 @@
             // 
             // Form12
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(212, 390);
+            this.ClientSize = new System.Drawing.Size(283, 480);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form12";
-            this.Text = "Form12";
+            this.Text = "Работы со списками";
             this.Load += new System.EventHandler(this.Form12_Load);
             this.ResumeLayout(false);
 

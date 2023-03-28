@@ -24,7 +24,7 @@ namespace EducationalPractice
 
         private void Form23_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"C:\Users\k2511\2.2-ИСиП-2\МДК\Ресурсы\Screenshot_3.jpg");
+            pictureBox1.Image = Image.FromFile(@"C:\2023-2.2.ISIP.2\EducationalPractice\Resource\Screenshot_3.png");
         }
 
         private void button2_Click(object sender, EventArgs e)

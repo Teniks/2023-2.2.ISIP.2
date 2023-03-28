@@ -225,7 +225,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form34";
-            this.Text = "Form34";
             this.Load += new System.EventHandler(this.Form34_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();

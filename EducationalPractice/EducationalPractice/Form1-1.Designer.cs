@@ -36,10 +36,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(10, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(13, 14);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 44);
+            this.button1.Size = new System.Drawing.Size(231, 54);
             this.button1.TabIndex = 0;
             this.button1.Text = "Математические и физические задачи";
             this.button1.UseVisualStyleBackColor = true;
@@ -47,10 +47,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(10, 60);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(13, 74);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 50);
+            this.button2.Size = new System.Drawing.Size(231, 62);
             this.button2.TabIndex = 1;
             this.button2.Text = "Ветвления";
             this.button2.UseVisualStyleBackColor = true;
@@ -58,9 +58,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(10, 116);
+            this.button3.Location = new System.Drawing.Point(13, 143);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 32);
+            this.button3.Size = new System.Drawing.Size(229, 39);
             this.button3.TabIndex = 2;
             this.button3.Text = "Назад";
             this.button3.UseVisualStyleBackColor = true;
@@ -68,16 +69,16 @@
             // 
             // Form1_1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(190, 161);
+            this.ClientSize = new System.Drawing.Size(253, 198);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1_1";
-            this.Text = "Form1_1";
+            this.Text = "Разработка структуры главной формы приложения";
             this.ResumeLayout(false);
 
         }

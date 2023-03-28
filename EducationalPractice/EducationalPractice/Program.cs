@@ -40,6 +40,8 @@ namespace EducationalPractice
         public static Form32 Multimedia = new Form32();
         public static Form33 TextFiles = new Form33();
         public static Form34 Text = new Form34();
+        public static Form35 WorkWithTypedFiles = new Form35();
+        public static Form36 Notes = new Form36();
 
 
         /// <summary>

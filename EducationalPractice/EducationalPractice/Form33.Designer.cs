@@ -65,7 +65,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form33";
-            this.Text = "Form33";
+            this.Text = "Работа с текстовыми файлами";
             this.ResumeLayout(false);
 
         }

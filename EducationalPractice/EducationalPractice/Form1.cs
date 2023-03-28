@@ -64,5 +64,16 @@ namespace EducationalPractice
             Program.TextFiles.Show();
             Program.Center.Hide();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Program.WorkWithTypedFiles.Show();
+            Program.Center.Hide();
+        }
     }
 }
