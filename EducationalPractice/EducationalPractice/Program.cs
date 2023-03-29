@@ -42,6 +42,11 @@ namespace EducationalPractice
         public static Form34 Text = new Form34();
         public static Form35 WorkWithTypedFiles = new Form35();
         public static Form36 Notes = new Form36();
+        public static Form37 Records = new Form37();
+        public static Form38 Files = new Form38();
+        public static Form39 Screensaver = new Form39();
+        public static Form40 Reference = new Form40();
+        public static Form41 Files1 = new Form41();
 
 
         /// <summary>
@@ -51,7 +56,7 @@ namespace EducationalPractice
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.Run(Center);
+            Application.Run(Screensaver);
         }
         public static double DoubleFromText(string str)
         {

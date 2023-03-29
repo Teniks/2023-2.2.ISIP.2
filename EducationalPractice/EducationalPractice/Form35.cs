@@ -25,7 +25,13 @@ namespace EducationalPractice
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Program.Notes.Show();
+            Program.Records.Show();
+            Program.WorkWithTypedFiles.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Program.Files1.Show();
             Program.WorkWithTypedFiles.Hide();
         }
     }

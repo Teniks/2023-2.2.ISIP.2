@@ -72,7 +72,19 @@ namespace EducationalPractice
 
         private void button9_Click(object sender, EventArgs e)
         {
+            Program.Notes.Show();
+            Program.Center.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
             Program.WorkWithTypedFiles.Show();
+            Program.Center.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Program.Reference.Show();
             Program.Center.Hide();
         }
     }
